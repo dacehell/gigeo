@@ -4,17 +4,17 @@
   font-family: futura;
 }
 
-@font-face {
-  font-family: futura;
-  font-style: normal;
-  font-weight: normal bold;
-  src: url("C:Users�hell\documentsgigeo\assetstipography\futuraLT.ttf");
-  src: url("C:Users�hell\documentsgigeo\assetstipography\futuraLT.woff");
-}
 * {
   margin: 0;
 }
 
+@font-face {
+  font-family: futura;
+  font-style: normal;
+  font-weight: normal bold;
+  src: url("../tiporaphy/FuturaLT.ttf");
+  src: url("../tiporaphy/FuturaLT.woff");
+}
 .navbar {
   flex-wrap: unset !important;
 }
@@ -23,7 +23,7 @@
   padding: 0;
 }
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-image: url(C:/Users/Dacehell/Documents/gigeo/assets/img/toggle_icon.jpg);
+  background-image: url(../img/toggle_icon.jpg);
   width: 4.5em;
   height: 2.4em;
   margin-left: 15px;
@@ -9984,7 +9984,7 @@ h3 {
   }
 }
 .header__banner {
-  background: url(C:/Users/Dacehell/Documents/gigeo/assets/img/image-banner.png) no-repeat;
+  background: url(../img/image-banner.png) no-repeat;
   background-size: cover;
   height: 34vh;
   background-position-y: 50%;
