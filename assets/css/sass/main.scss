@@ -1,0 +1,24 @@
+@import 'abstracts/variables';
+
+
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+
+@import  'components/navbar';
+@import  'components/buttons';
+@import  'components/card';
+
+
+@import 'vendors/bootstrap-4.1/bootstrap';
+
+@import 'layout/header';
+@import 'layout/section';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/mainsection';
+@import 'layout/aside';
+
+

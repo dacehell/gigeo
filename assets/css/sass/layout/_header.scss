@@ -1,0 +1,18 @@
+.header__banner{
+    background: url(/assets/img/image-banner.png) no-repeat;
+    background-size: cover;
+    height: 34vh;
+    background-position-y: 50%;
+}   
+@media  (max-width: 623px){
+
+    .header__banner{
+
+        height: 13vh;
+        background-position-y: 50%;
+
+    }
+
+
+
+}

@@ -1,0 +1,40 @@
+.navbar {
+    flex-wrap:unset !important;
+
+    .navbar-toggler {
+        font-size: unset;
+        padding: 0;
+
+        .navbar-toggler-icon {
+
+            background-image: url(/assets/img/toggle_icon.jpg);
+            width: 4.5em;
+            height: 2.4em;
+            margin-left: 15px;
+
+        }
+
+    }
+
+}
+
+.fa-search,
+.fa-video,
+.fa-plus,
+.fa-bell {
+    margin-left: 20px;
+    font-size: 1.5em;
+    vertical-align: middle;
+
+}
+
+@media (max-width: 623px) {
+
+    .fa-search,
+    .fa-video,
+    .fa-plus,
+    .fa-bell {
+        display: none;
+    }
+
+}

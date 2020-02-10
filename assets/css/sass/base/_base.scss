@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family:$font;
+}
+
+@font-face{
+
+    font-family: futura;
+    font-style: normal;
+    font-weight: normal bold;
+    src: url("/assets/tipography/FuturaLT.ttf");
+    src: url("/assets/tipography/FuturaLT.woff");
+
+}

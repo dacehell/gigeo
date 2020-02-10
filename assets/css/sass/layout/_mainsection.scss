@@ -1,0 +1,21 @@
+h1 {
+    padding: 30px 0 20px 0;
+    font-size: 16pt;
+}
+
+
+.card-text {
+    margin-bottom: 0;
+}
+
+
+.container_main{
+    padding: 0 9% 0;
+}
+
+@media (max-width: 623px){
+    h1{
+        font-size: 6vw;
+        text-align: center;
+    }
+}
